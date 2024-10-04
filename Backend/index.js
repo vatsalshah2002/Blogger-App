@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["https://blogger-app-frontend-omega.vercel.app/"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true, // Allow cookies to be sent with requests if needed
   optionsSuccessStatus: 200, // Some legacy browsers choke on 204
