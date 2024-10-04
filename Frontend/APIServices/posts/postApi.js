@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = "http://localhost:5000/api/v1/posts"; //!Create post api
+//const BASE_URL = "http://localhost:5000/api/v1/posts"; //!Create post api
+const BASE_URL = "https://blogger-app-api.vercel.app/"
 export const createPostAPI = async (postData) => {
 
     const response = await axios.post(`${BASE_URL}/create`, {
