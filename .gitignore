@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Vite output directory
+dist/
+
+# Ignore environment variables file
+.env
+
+# Ignore build files
+build/
+
+# Ignore IDE-specific files
+.vscode/
